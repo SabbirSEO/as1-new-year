@@ -75,7 +75,6 @@ p.off-desc {
 p.off-cat {
     color: #070211;
     font-size: 48px;
-    ;
     font-weight: 700;
 }
 
@@ -86,13 +85,10 @@ p.off-cat {
     max-width: 1320px;
     background-size: cover;
     display: flex;
+    justify-content: space-between;
     border-radius: 16px;
     padding: 126px;
     margin: 50px auto;
-}
-
-.third-tex {
-    max-width: 697px;
 }
 
 .third-h2 {
@@ -105,4 +101,23 @@ p.off-cat {
 .third-p {
     color: rgba(255, 255, 255, 0.80);
     font-size: 18px;
+}
+
+/* fourth-section */
+
+.fourth-section {
+    max-width: 1320px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 16px;
+    padding: 126px;
+    margin: 120px auto;
+}
+
+.fourth-inner {
+    max-width: 549px;
 }
