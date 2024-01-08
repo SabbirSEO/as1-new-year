@@ -12,10 +12,14 @@ h6 {
 body {
     font-family: 'Inter', sans-serif;
 }
+/* Hero Style */
 
-header .hero-section {
-    background-image: url (./resources/Banner-image.png);
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    width: 1320px;
-    border-radius: 16px;
+.hero-section {
+    background-image: url('./resources/Banner-image.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
