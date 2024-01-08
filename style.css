@@ -1,0 +1,21 @@
+/* common shared style */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header .hero-section {
+    background-image: url (./resources/Banner-image.png);
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 1320px;
+    border-radius: 16px;
+}
