@@ -22,6 +22,7 @@ p {
 
 body {
     font-family: 'Inter', sans-serif;
+    margin: 0px;
 }
 
 .text-highlight {
@@ -267,7 +268,7 @@ section .third-col {
 .gallery-1 {
     max-width: 1320px;
     gap: 24px;
-    margin: 0px auto;
+    margin: 20px auto;
 }
 
 .gallery-inner {
@@ -292,15 +293,18 @@ section .third-col {
 }
 
 form {
+    
     padding-top: 20px;
 }
 
 input.email {
-    padding: 15px 30px;
     width: 438px;
+    padding: 15px 30px;
     font-size: 20px;
     border: 0px;
-    border-radius: 50px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-right: -5px;
 }
 
 input::placeholder {
@@ -319,4 +323,42 @@ input.sub-btn {
     font-size: 20px;
     font-weight: 600;
 
+}
+
+footer {
+    background: #070211;
+    padding: 120px 0;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.footer-top {
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.footer-p {
+    color: #fff
+    
+}
+
+.footer-mid {
+    max-width: 1320px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px 0px;
+    border-top: solid 1px rgba(255, 255, 255, 0.15);
+    border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+    margin: 30px auto;
+
+}
+
+.footer-bottom {
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
 }
