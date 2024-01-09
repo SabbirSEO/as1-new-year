@@ -12,10 +12,12 @@ h6 {
 h3 {
     font-size: 48px;
     font-weight: 900px;
+    margin-bottom: 10px;
 }
 
 p {
     font-size: 20px;
+    color: rgba(7, 2, 17, 0.60);
 }
 
 body {
@@ -159,27 +161,162 @@ p.off-cat {
     line-height: 20px;
 }
 
+/* fifth-section */
+
 .fifth-section {
     max-width: 1320px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
     margin: auto;
+}
+
+.fifth-section .item {
+    max-width: 393px;
+    padding-top: 30px;
+}
+
+.fifth-section .item-2 {
+    max-width: 463px;
+}
+
+.fifth-section .item-3 {
+    max-width: 276px;
 }
 
 .fifth-red-p {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: -30px;
 }
 
-.fifth-img {
-    border: 15px solid #F00;
+.image-container {
     border-radius: 463px;
-
+    border: 15px solid #F00;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
 }
+
+img.fifth-img {
+    border-radius: 364.844px;
+    text-align: center;
+}
+
 
 p.red-2024 {
     color: #F00;
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* sixth-section */
+.sixth {
+    max-width: 900px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 120px auto;
+}
+
+.sixth-p {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: -30px;
+}
+
+
+h2.sixth-h2 {
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+/* seventh-section */
+.seventh {
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 0px auto;
+}
+
+.second-col {
+    margin: 0px
+}
+
+section .third-col {
+    position: absolute;
+    top: 440%;
+    right: 30%;
+}
+
+/* eighth-section */
+
+.eighth {
+    max-width: 1320px;
+    display: flex;
+    margin: 50px auto 10px;
+}
+
+.gallery-1 {
+    max-width: 1320px;
+    gap: 24px;
+    margin: 0px auto;
+}
+
+.gallery-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+/* subscription-section */
+
+.subscription {
+    max-width: 1320px;
+    height: 600px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 16px;
+    margin: 50px auto;
+}
+
+form {
+    padding-top: 20px;
+}
+
+input.email {
+    padding: 15px 30px;
+    width: 438px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 50px;
+}
+
+input::placeholder {
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.30);
+}
+
+input.sub-btn {
+    width: 210px;
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 14px 30px;
+
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+
 }
